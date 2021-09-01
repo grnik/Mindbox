@@ -21,6 +21,8 @@ namespace Figure
         public Circle(double r)
         {
             this.r = r;
+
+            //На максимум не проверяю.
             CheckPlus();
         }
         #endregion

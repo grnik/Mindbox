@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Figure
 {
-    interface IFigure
+    public interface IFigure
     {
         double Square();
     }

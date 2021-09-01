@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Figure
 {
-    public class Triangle:IFigure
+    public class Triangle : IFigure
     {
         #region Properties
 
@@ -53,12 +53,13 @@ namespace Figure
         #endregion
 
         #region Constructors
-        public Circle(double a, double b, double c)
+        public Triangle(double a, double b, double c)
         {
             A = a;
             B = b;
             C = c;
 
+            //На максимум не проверяю.
             CheckPlusSide();
             CheckSumSide();
         }
@@ -91,7 +92,7 @@ namespace Figure
             {
                 sum2 += C;
             }
-            if (sum2 >= max)
+            if (sum2 <= max)
                 throw new Exception("Сумма двух сторон не может быть меньше длины третьей.");
         }
 

@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox", "Mindbox\Mindbox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figure", "Figure\Figure.csproj", "{187F902D-A22D-43F8-8ECD-472133124735}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{C38F449E-B20D-490A-969A-D3A3601FA039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D6E57BA-1C81-4EBD-9D82-2A2647D81E59}"
+	ProjectSection(SolutionItems) = preProject
+		ItemCategorySQL.sql = ItemCategorySQL.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{187F902D-A22D-43F8-8ECD-472133124735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{187F902D-A22D-43F8-8ECD-472133124735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{187F902D-A22D-43F8-8ECD-472133124735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38F449E-B20D-490A-969A-D3A3601FA039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38F449E-B20D-490A-969A-D3A3601FA039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38F449E-B20D-490A-969A-D3A3601FA039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38F449E-B20D-490A-969A-D3A3601FA039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
