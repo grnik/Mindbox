@@ -10,6 +10,7 @@ namespace Mindbox
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
